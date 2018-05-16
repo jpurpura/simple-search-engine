@@ -2,8 +2,8 @@ from pymongo import MongoClient
 from pprint import pprint
 import urllib
 
-USERNAME = "purpurajames@gmail.com"
-PASSWORD = "MikeTrout27!"
+USERNAME = "sample_dude"
+PASSWORD = "henny"
 CNTSTR =  "mongodb+srv://{}:{}@cluster0-ujza5.mongodb.net/test?retryWrites=true".format(
     urllib.quote(USERNAME), urllib.quote(PASSWORD))
 
