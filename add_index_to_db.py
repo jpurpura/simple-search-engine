@@ -10,7 +10,7 @@ PASSWORD = "password1234"
 CONNECTION_STRING =  "mongodb+srv://{}:{}@cluster0-ujza5.mongodb.net/test?retryWrites=true".format(
     urllib.quote(USERNAME), urllib.quote(PASSWORD))
 DEBUG = True
-def connect_to_database(connection_string):
+def connect_to_main_database(connection_string):
     client = MongoClient(connection_string)
     db = client.invertedIndexDB
     return db
