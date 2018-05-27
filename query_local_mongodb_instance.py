@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import os
 from Document.get_document import read_json
-MONGODB_CONNECTION_STRING = 'mongodb://{}:{}@10.8.56.217/invertedIndex'
+MONGODB_CONNECTION_STRING = 'mongodb://{}:{}@10.8.29.10/invertedIndex'
 
 if __name__ == '__main__':
     bookkeeping_path = os.path.join(
